@@ -8,6 +8,9 @@ import { RecepiPageComponent } from './recepi-page.component';
   declarations: [
     RecepiPageComponent
   ],
+  exports: [
+    RecepiPageComponent
+  ],
   imports: [
     CommonModule
   ]

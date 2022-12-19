@@ -8,8 +8,12 @@ import { CocktailPageComponent } from './cocktail-page.component';
   declarations: [
     CocktailPageComponent
   ],
+  exports: [
+    CocktailPageComponent
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    // SharedModule,
   ]
 })
 export class CocktailPageModule { }
